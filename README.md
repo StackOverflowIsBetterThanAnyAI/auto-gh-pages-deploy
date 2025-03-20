@@ -10,4 +10,4 @@ If you have no Cypress e2e tests, feel free to remove the `Run Cypress Tests` an
 
 If all steps execute flawlessly, the `github-actions[bot]` will deploy the latest version to GitHub pages.
 
-If the `master` branch is protected, replace the `secrets.GITHUB_TOKEN` with a freshly generated Personal Access Token (in your repository secrets), which could be named `DEPLOY_TOKEN`, and swap it for `secrets.DEPLOY_TOKEN` in the `deploy.yml` file.
+❗ If the `master` branch is protected, replace the `secrets.GITHUB_TOKEN` with a freshly generated Personal Access Token (in your repository secrets), which could be named `DEPLOY_TOKEN`, and swap it for `secrets.DEPLOY_TOKEN` in the `deploy.yml` file.
