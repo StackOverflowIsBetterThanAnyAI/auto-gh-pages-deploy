@@ -60,7 +60,7 @@ jobs:
                   node-version: 22
 
             - name: Install Dependencies
-              run: npm i
+              run: npm ci
 
             - name: Build App
               run: npm run build
